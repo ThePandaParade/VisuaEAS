@@ -15,6 +15,6 @@ Not yet available.
 ## Contributors
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for information on how to contribute.<br>
-<a href="https://github.com/FrostbyteSpace/frostbyte/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=FrostbyteSpace/frostbyte" />
+<a href="https://github.com/WhenDawnEnds/VisuaEAS/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=WhenDawnEnds/VisuaEAS" />
 </a>
