@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alata&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/Sidebar-Menu-sidebar.css">
+    <link rel="stylesheet" href="assets/css/Sidebar-Menu.css">
+</head>
+
+<body style="font-family: Alata, sans-serif;">
+    <nav class="navbar navbar-light navbar-expand-md bg-dark" style="transform-style: preserve-3d;">
+        <div class="container-fluid"><a class="navbar-brand fw-bold text-end link-light" href="#">VisuaEAS</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav">
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                </ul>
+            </div><a class="btn btn-link" role="button" id="menu-toggle" href="#menu-toggle"><i class="fa fa-bars text-light"></i></a>
+        </div>
+    </nav>
+    <div id="wrapper">
+        <div class="text-dark" id="sidebar-wrapper" style="transform-style: preserve-3d;">
+            <ul class="sidebar-nav">
+                <li> <a href="index.html">Map</a><a href="#">Report</a><a href="about.html">About</a></li>
+                <li> </li>
+            </ul>
+        </div>
+        <div class="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12 col-xxl-12 offset-xxl-0">
+                        <h1>VisuaEAS</h1>
+                        <p style="font-family: Alata, sans-serif;">To report incorrect data, please use the form below.</p>
+                        <form><label class="form-label" for="email">Contact Email (for further communication)</label><input class="form-control" type="email" placeholder="Contact Email" name="email"><label class="form-label" for="location">Area of Alert [required]</label><input class="form-control" type="text" placeholder="Location (either ZIP or Co-Ordinates)" required="" name="location"><label class="form-label" for="issue">Issue Date</label><input class="form-control" type="date" min="31/12/2022" max="31/12/2099" name="issue"><label class="form-label" for="start">Start Date</label><input class="form-control" type="date" min="31/12/2022" max="31/12/2099" name="start"><label class="form-label" for="end">End Date</label><input class="form-control" type="date" min="31/12/2022" max="31/12/2099" name="end"><label class="form-label" for="end">Alert Type</label>
+                            <div class="dropdown"><button class="btn btn-primary dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button">Alert Type</button>
+                                <div class="dropdown-menu"><a class="dropdown-item" href="#">Incorrect Alert</a><a class="dropdown-item" href="#">Weather Alert / Advisory</a><a class="dropdown-item" href="#">Gov. Alert</a><a class="dropdown-item" href="#">Law En. Alert</a></div>
+                            </div><label class="form-label" for="misc">Misc. Info</label><textarea class="form-control" name="misc"></textarea><button class="btn btn-primary" type="submit" style="margin-top: 25px;">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/Sidebar-Menu.js"></script>
+</body>
+
+</html>
